@@ -1,0 +1,32 @@
+{
+  "N": 2000,
+  "STEPS": 3000,
+  "SEED": 42,
+  "CANDIDATES_PER_AGENT": 6,
+  "EDGE_TRIES_PER_STEP": 1,
+  "EDGE_DECAY_PROB": 0.02,
+  "REWIRE_ON_DECAY": true,
+  "W_NATIONALITY": 0.35,
+  "W_RELIGION": 0.35,
+  "W_GENDER": 0.15,
+  "W_AGE": 0.15,
+  "PA_STRENGTH": 0.6,
+  "BASE_LINK_LOGIT": -2.2,
+  "LOGIT_SCALE": 1.0,
+  "AGE_BUCKETS": [
+    18,
+    25,
+    35,
+    50,
+    70
+  ],
+  "NATIONALITIES": 6,
+  "RELIGIONS": 5,
+  "GENDERS": 3,
+  "OUT_DIR": "./abm_outputs",
+  "HEARTBEAT_EVERY": 100,
+  "METRICS_EVERY": 20,
+  "SNAPSHOT_EDGES_CSV": false,
+  "SNAPSHOT_EVERY": 1000,
+  "MAX_EDGES_SOFT": 2000000
+}
